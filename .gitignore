@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pkl
+*.index
+.env
+node_modules/
+build/
+venv/
+.DS_Store
+backend/ml/data/*.csv
+.env.local
+.env.*
+enev
+frontend/node_modules/
+frontend/build/
+dist/
+*.log

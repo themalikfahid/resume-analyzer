@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Multi-Agent ATS Resume Analyzer
 
 An AI-powered ATS (Applicant Tracking System) Resume Analyzer that evaluates resumes against job descriptions using Natural Language Processing (NLP), Machine Learning, Retrieval-Augmented Generation (RAG), and Multi-Agent Architecture. The system analyzes skill matches, calculates ATS compatibility scores, predicts candidate suitability, identifies skill gaps, and generates personalized recommendations for resume optimization.
@@ -180,10 +181,18 @@ frontend/
 ### Backend
 
 ```bash
+=======
+# ATS Resume Analyzer - Semester Project
+
+## Setup
+
+### Backend
+>>>>>>> 85f80a8 (Initial commit: ATS Resume Analyzer)
 cd backend
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 python -m nltk.downloader stopwords punkt
+<<<<<<< HEAD
 python rag/knowledge_base.py
 python ml/train_model.py
 uvicorn main:app --reload
@@ -230,3 +239,16 @@ This project demonstrates the practical implementation of:
 **Fahid Asif**
 BS Data Science
 University of Central Punjab (UCP)
+=======
+Place ats_resume_dataset.csv in backend/ml/data/
+python rag/knowledge_base.py
+python ml/train_model.py
+uvicorn main:app --reload --port 8000
+
+### Frontend (new terminal)
+cd frontend
+npm install
+npm start
+
+Open: http://localhost:3000
+>>>>>>> 85f80a8 (Initial commit: ATS Resume Analyzer)
